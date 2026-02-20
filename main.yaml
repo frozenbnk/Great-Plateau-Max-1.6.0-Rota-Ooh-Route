@@ -1,0 +1,194 @@
+- Great Plateau:
+    - Grab Sheika Slate
+    - _Chest<Grab Well-Worn Trousers and Old Shirt>:
+        coord: [-1089.75,1851]
+    - SoR Clip:
+        coord: [-1091.5,1890.5]
+    - _Equipment::Shield<Pot Lid>:
+        movements:
+        - [-946.25,1967.75]
+    - _Material<6 Pepper>:
+        coord: [-962.6875,1955.75]
+    - _Material<2 Shroom>:
+        coord: [-959.1875,1964.6875]
+    - _Korok::P10
+    - _Equipment::Weapon<Rusty Sword>:
+        comment: To grab fairy later
+        coord: [-888.25,1909.75]
+    - Talk to .npc(Zelda):
+        icon: zelda
+        coord: [-849,1948.75]
+    - _Equipment::Bow<Traveler's Bow>:
+        coord: [-832.125,1963.0625]
+    - BLSS to Ruins with Pot:
+        coord: [-818.25,1954.5]
+    - _Chest<Hylian Trousers>:
+        coord: [-737.5,1864]
+    - .boss(Shoot Boko with x1 Arrow)
+    - BLSS to Shrine with Barrel:
+        comment: .important(Kill Chuchu inside Barrel for Rota Ooh)
+        coord: [-753.75,1873.5]
+    - .important(DLC Chest):
+        coord: [-468.5,2008.25]
+        comment: .item(Only if want to be DLC)
+        icon: chest
+    - .boss(Enter Ja Baij):
+        icon-doc: activate
+    - _Chest<Traveler's Claymore>:
+        icon-map: 0
+    - _Chest<Amber>:
+        icon-map: 0
+    - _Shrine::JaBaij
+    - Talk to Old Man:
+        comment: Down Up Up Down
+    - _Korok::P12:
+        comment: Push Metal Door with Round Bomb
+    - BLSS to Oman Au:
+        coord: [-422,1982.75]
+    - .boss(Enter Oman Au):
+        icon-doc: activate
+    - .boss(Kill Guardian)
+    - _Chest<Traveler's Bow>:
+        icon-map: 0
+        comment: Drop first bow to avoid textbox
+    - _Shrine::OmanAu
+    - BLSS to Chests
+    - _Chest<Fire Arrow + Ice Arrow>:
+        coord: [-775.5,1559]
+    - _Korok::P02
+    - _Korok::P01
+    - BLSS to Tower
+    - _Tower::GreatPlateau
+    - BLSS to Old Man House
+    - _Korok::P18
+    - Tree Windbomb to Owa Daim:
+        coord: [-839.5,2273.5]
+        comment: Ragdoll Fix
+    - .boss(Enter Owa Daim):
+        icon-doc: activate
+    - _Chest<Traveler's Shield>:
+        icon-map: 0
+        comment: Break last Shield Before
+    - _Equipment::Weapon<IronSledge Hammer>:
+        icon-map: 0
+        comment: For Talus
+    - _Shrine::OwaDaim
+    - BLSS to Race:
+        comment: Fall in Water
+    - _Korok::L08
+    - Windbomb 1/4 .item(SW)
+    - BLSS to Grass:
+        coord: [-695.5,2305]
+    - _Material<Fairy>:
+        coord: [-458,2098]
+        comment: .important(High RNG Depend)
+    - _Korok::P13
+    - BLSS to Location
+    - _Discover<Gatepost Town Ruins>:
+        movements:
+        - [-389,1977]
+        - [-400,1912]
+        - [-460,1687]
+        - [-566,1474]
+    - _Warp::Shrine::OwaDaim:
+        color: red
+    - Rock Launch Up
+    - BLSS to Slab:
+        coord: [-978,2286]
+    - _Korok::P16
+    - _Korok::P17
+    - Windbomb 1/4 .item(W>>)
+    - .boss(Grab Warm Doublet):
+        coord: [-1289,2214]
+        icon: tots
+    - _Korok::P15
+    - BLSS to Desert:
+        coord: [-1349.5,2312.5]
+    - _Korok::W22:
+        movements:
+        - [-1542,2362.5]
+        - [-1399,2378]
+    - _Warp::Shrine::OwaDaim:
+        color: lightgreen
+    - Rock Launch Up
+    - BLSS to Keh Namut:
+        coord: [-978,2286]
+    - .boss(Enter Keh Namut):
+        icon-doc: activate
+    - _Chest<Traveler's Spear>:
+        icon-map: 0
+    - .boss(Kill Guardian)
+    - _Shrine::KehNamut
+    - Talk to Old Man
+    - BLSS to Coliseum
+    - _Korok::C80
+    - BLSS on tree
+    - _Korok::C87:
+        movements:
+        - [-1582,1501]
+        - [-1586,1579]
+    - BLSS to Korok:
+        coord: [-1549,1558]
+    - _Korok::C89
+    - _Warp::Shrine::KehNamut:
+        color: violet
+    - _Korok::P07
+    - BLSS to Korok
+    - _Korok::P08
+    - Windbomb Turn to .item(N>)
+    - _Korok::P03
+    - BLSS to Talus
+    - _Boss::Talus::Stone:
+        coord: [-1087,1659]
+    - _Korok::P04
+    - _Korok::P06
+    - _Equipment::Bow<x5 Arrow>:
+        comment: Highly recommended
+        coord: [-904,1670.5]
+    - _Korok::P05
+    - _Warp::Shrine::KehNamut:
+        color: gold
+    - .item(Take Storage):
+        icon-doc: activate
+    - .boss(Do BTB):
+        icon: tots
+        coord: [-1394,1989]
+        notes: .link([BTB Setup] https://www.youtube.com/watch?v=5QxbyR-VuNk)
+    - Go to Right Spot:
+        comment: Amortize Fall Damage with Fairy
+    - .item(Instant Text Box with Chuchu):
+        comment: Ice -> Fire
+        icon: bow
+        movements:
+        - [-1507,1411]
+        - [-1558.5,1400]
+    - .boss(Enter Rota Ooh):
+        comment: You're the boss
+        icon-doc: activate
+    - Windbomb .item(N)
+    - _Chest<Feathered Edge>:
+        icon-map: 0
+    - _Chest<Small Key>:
+        icon-map: 0
+    - Return to Shrine Entry
+    - Windbomb 1/4 /item(W)
+    - _Shrine::RotaOoh
+    - _Warp::TravelMedallion<-1022.5,1791>:
+        comment: .important(You'll be warp automatically)
+        color: olive
+    - .boss(Watch Oppening Cutscene):
+        coord: [-1063.5,1828.5]
+        comment: For % on map
+        icon: tots
+    - BLSS to Goddess Statue
+    - .item(Talk to Goddess Statue):
+        icon: shop
+        coord: [-822,2027.5]
+        comment: Ask for stamina
+    - Go up with ladder:
+        coord: [-804.5,2021.25]
+    - _Korok::P11
+    - .item(Take Glider):
+        coord: [-815,1968]
+        icon: chest
+        comment: GGs !
